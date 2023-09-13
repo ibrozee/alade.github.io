@@ -1,0 +1,69 @@
+<div class="container">
+  <h1>Student Registration Form for Coding Club</h1>
+  <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+    <table>
+      <tr>
+        <td><label for="fname">First name:</label></td>
+        <td><input type="text" name="name" id="name" placeholder="first name"></td>
+      </tr>
+      <tr>
+        <td><label for="lname">Last name:</label></td>
+        <td><input type="text" name="name" id="name" placeholder=" last name"></td>
+      </tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="text" name="email" id="email" placeholder="your email"></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" name="password" id="password"></td>
+      </tr>
+      <tr>
+        <td><label for="phoneNumber">Phone Number:</label></td>
+        <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
+      </tr>
+      <tr>
+        <td><label for="gender">Gender:</label></td>
+        <td>Male: <input type="radio" name="gender" value="male">
+          Female: <input type="radio" name="gender" value="female">
+          Other: <input type="radio" name="gender" value="other"></td>
+      </tr>
+      <body style= background-color:peru>
+      <P> Choose the program of your choice.</P> 
+      <tr>
+        <td><label for="Program">Program:</label></td>
+        <td>Python: <input type="radio" name="program" value="Python">
+          HTML: <input type="radio" name="program" value="HTML">
+          Javascript <input type="radio" name="program" value="Javascript"></td>
+      </tr>
+      <tr>
+        <td><label for="language">language</label></td>
+        <td>
+          <select name="language" id="language">
+            <option value="">Select language</option>
+            <option value="English">English</option>
+            <option value="Spanish">Spanish</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Arabic">Arabic</option>
+            <option value="Russian">Russian</option>
+            <option value="Hausa">Hausa</option>
+            <option value="Yoruba">Yoruba</option>
+            <option value="Igbo">Igbo</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="zipcode">Zip Code:</label></td>
+        <td><input type="number" name="zipcode" id="zipcode"></td>
+      </tr>
+      <tr>
+        <td><label for="about">About:</label></td>
+        <td><textarea name="about" id="about" placeholder="Express your intrest in learning programing..."required></textarea></td>
+      </tr>
+      <a href="mailto:leoibro@gmail.com" target="_blank">Click to send mail</a>
+      <tr>
+        <td colspan="2"><input type="submit" class="submit" value="Register" /></td>
+              </tr>
+    </table>
+  </form>
+</div>
+<center><a href="index.html">Back To Home Page</a></center>
